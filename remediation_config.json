@@ -1,0 +1,25 @@
+{
+  "target_path": "s3://aws-glue-remediation-demo/data/remediation_database/customer_masked_csv/",
+  "colomn_param": [
+     {
+      "sensitive_type": "ein",
+      "column_name": "comment"
+    }, 
+    {
+      "sensitive_type": "csin",
+      "column_name": "comment"
+    },
+    {
+      "sensitive_type": "ssn",
+      "column_name": "comment"
+    },
+    {
+      "sensitive_type": "php_ssn",
+      "column_name": "comment"
+    },
+    {
+      "sensitive_type": "itin",
+      "column_name": "comment"
+    }	
+  ]
+}
